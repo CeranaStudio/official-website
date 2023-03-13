@@ -16,6 +16,9 @@ export default defineNuxtConfig({
       title: '東蜂科技 - 官網',
       meta: [
         { name: 'description', content: '東蜂科技是一間專注於網頁開發的公司，我們提供網頁開發、網頁設計、網頁維護、網頁優化、網頁擴充等服務。' },
+        { name: 'og:title', content: '東蜂科技 - 官網' },
+        { name: 'og:description', content: '東蜂科技是一間專注於網頁開發的公司，我們提供網頁開發、網頁設計、網頁維護、網頁優化、網頁擴充等服務。' },
+        { name: 'og:image', content: '/og-image.png' },
       ],
       link: [{ rel: 'icon', type: 'image/png', href: '/favicon.svg' }]
     }

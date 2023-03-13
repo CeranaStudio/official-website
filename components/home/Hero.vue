@@ -16,7 +16,7 @@
 <style scoped>
 .home__hero__text {
   width: calc(50%-10px);
-  margin: 10px;
+  padding: 10px;
 }
 .home__hero__text h1 {
   font-size: 56px;

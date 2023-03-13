@@ -1,10 +1,10 @@
 <template>
   <div
-    class="flex min-h-[552px] flex-col-reverse flex-wrap items-center justify-center lg:min-h-[62.5vh] lg:flex-row"
+    class="flex min-h-[552px] flex-col-reverse flex-wrap items-center justify-center lg:min-h-[60vh] lg:flex-row"
   >
     <div class="home__hero__text">
-      <h1>穩定、可靠</h1>
-      <p>
+      <h1 name="title">穩定、可靠</h1>
+      <p name="context">
         規劃！設計！實作！建構！<br />
         東蜂根據您的需求和目標，製作出符合您期望的網站。
       </p>
@@ -15,6 +15,22 @@
     </div>
   </div>
 </template>
+<script setup>
+onMounted(() => {
+  document.getElementsByName('title').forEach((el) => {
+    el.classList.add('fade-in')
+  })
+  document.getElementsByName('context').forEach((el) => {
+    el.classList.add('opacity-0')
+  })
+  setTimeout(() => {
+    document.getElementsByName('context').forEach((el) => {
+      el.classList.remove('opacity-0')
+      el.classList.add('fade-in')
+    })
+  }, 1000)
+})
+</script>
 <style scoped>
 .home__hero__text {
   width: calc(50%-10px);
@@ -75,6 +91,17 @@
 @media screen and (max-width: 425px) {
   .home__hero__img {
     height: 250px;
+  }
+}
+.fade-in {
+  animation: fade-in 1s ease-in-out;
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
 </style>

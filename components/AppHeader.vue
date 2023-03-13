@@ -43,8 +43,8 @@ const isOpen = computed(() => open.value === "-open");
   z-index: 100;
 }
 .menu__logo img {
-  height: 2.5vh;
-  max-width: 250px;
+  height: 3vh;
+  max-width: 300px;
 }
 
 @media screen and (min-width: 1024px) {

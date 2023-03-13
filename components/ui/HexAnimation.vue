@@ -44,34 +44,25 @@
 
 @keyframes odd-animation {
   0% {
-    transform: translate(
-        calc(0.5 * var(--offset-x)),
-        calc(0.5 * var(--offset-y))
-      )
-      scale(0);
+    transform: translate(calc(0.5 * var(--offset-x)), calc(0.5 * var(--offset-y))) scale(0);
   }
   33% {
-    transform: translate(calc(1 * var(--offset-x)), calc(1 * var(--offset-y)))
-      scale(1);
+    transform: translate(calc(1 * var(--offset-x)), calc(1 * var(--offset-y))) scale(1);
   }
   66% {
-    transform: translate(calc(2 * var(--offset-x)), calc(2 * var(--offset-y)))
-      scale(1);
+    transform: translate(calc(2 * var(--offset-x)), calc(2 * var(--offset-y))) scale(1);
   }
   100% {
-    transform: translate(calc(3 * var(--offset-x)), calc(3 * var(--offset-y)))
-      scale(0);
+    transform: translate(calc(3 * var(--offset-x)), calc(3 * var(--offset-y))) scale(0);
   }
 }
 
 @keyframes even-animation {
   50% {
-    transform: translate(calc(1 * var(--offset-x)), calc(1 * var(--offset-y)))
-      scale(1);
+    transform: translate(calc(1 * var(--offset-x)), calc(1 * var(--offset-y))) scale(1);
   }
   100% {
-    transform: translate(calc(2 * var(--offset-x)), calc(2 * var(--offset-y)))
-      scale(0);
+    transform: translate(calc(2 * var(--offset-x)), calc(2 * var(--offset-y))) scale(0);
   }
 }
 
@@ -97,7 +88,7 @@ body {
   border: calc(0.5em * var(--Radius)) solid transparent;
   border-left: 0;
   border-right: calc(1em * var(--radius)) solid currentColor;
-  content: "";
+  content: '';
   height: var(--Radius);
 }
 
@@ -105,7 +96,7 @@ body {
   border: calc(0.5em * var(--Radius)) solid transparent;
   border-left: calc(1em * var(--radius)) solid currentColor;
   border-right: 0;
-  content: "";
+  content: '';
   height: var(--Radius);
 }
 

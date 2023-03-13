@@ -1,12 +1,12 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ["@nuxtjs/tailwindcss"],
+  modules: ['@nuxtjs/tailwindcss'],
   tailwindcss: {
-    configPath: "~/config/tailwind.config.js",
+    configPath: '~/config/tailwind.config.js'
   },
   nitro: {
     prerender: {
-      routes: ["/"],
-    },
-  },
-});
+      routes: ['/']
+    }
+  }
+})

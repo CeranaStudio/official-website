@@ -1,5 +1,7 @@
 <template>
-  <div class="flex flex-wrap flex-col-reverse justify-center items-center min-h-[552px] lg:min-h-[62.5vh] lg:flex-row">
+  <div
+    class="flex min-h-[552px] flex-col-reverse flex-wrap items-center justify-center lg:min-h-[62.5vh] lg:flex-row"
+  >
     <div class="home__hero__text">
       <h1>穩定、可靠</h1>
       <p>

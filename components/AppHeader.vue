@@ -8,8 +8,7 @@
       :class="{ open: isOpen }"
       @click="open === '' ? (open = '-open') : (open = '')"
     >
-      <span></span><span></span><span></span><span></span><span></span
-      ><span></span>
+      <span></span><span></span><span></span><span></span><span></span><span></span>
     </div>
   </header>
   <nav class="menu__nav" v-if="isOpen">
@@ -21,8 +20,8 @@
   </nav>
 </template>
 <script setup>
-const open = ref("");
-const isOpen = computed(() => open.value === "-open");
+const open = ref('')
+const isOpen = computed(() => open.value === '-open')
 </script>
 <style scoped>
 .menu {
@@ -79,7 +78,7 @@ const isOpen = computed(() => open.value === "-open");
 
 .bruger.open:hover span {
   opacity: 1;
-  background: #D2A357;
+  background: #d2a357;
 }
 
 .bruger.open:active span {
@@ -225,6 +224,6 @@ a {
   transition-property: color, background-color, opacity;
 }
 a:hover {
-  color: #D2A357;
+  color: #d2a357;
 }
 </style>

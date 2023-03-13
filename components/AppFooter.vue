@@ -1,8 +1,6 @@
 <template>
   <footer class="footer">
-    <section class="footer_copyright">
-      © 2023 Cerana Team. All rights reserved.
-    </section>
+    <section class="footer_copyright">© 2023 Cerana Team. All rights reserved.</section>
   </footer>
 </template>
 <style scoped>

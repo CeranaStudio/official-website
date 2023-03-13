@@ -5,9 +5,9 @@ export default defineNuxtConfig({
     configPath: '~/config/tailwind.config.js'
   },
   nitro: {
-    prerender: {
-      routes: ['/']
-    }
+    // prerender: {
+    //   routes: ['/']
+    // }
   },
   app: {
     head: {

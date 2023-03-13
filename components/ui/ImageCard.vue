@@ -6,7 +6,7 @@
       <slot name="title" />
     </div>
     <img
-      class="w-full h-64 object-cover rounded-xl group-hover:opacity-[0.6] transition duration-700"
+      class="max-h-[60vw] w-full h-64 object-cover rounded-xl group-hover:opacity-[0.6] transition duration-700"
       src="/img/a.jpg"
     />
   </div>

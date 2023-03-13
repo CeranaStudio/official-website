@@ -1,5 +1,5 @@
 <template>
-  <div class="home__hero">
+  <div class="flex flex-wrap flex-col-reverse justify-center items-center min-h-[552px] lg:min-h-[62.5vh] lg:flex-row">
     <div class="home__hero__text">
       <h1>穩定、可靠</h1>
       <p>
@@ -14,19 +14,6 @@
   </div>
 </template>
 <style scoped>
-.home__hero {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  min-height: 552px;
-}
-@media screen and (max-width: 1024px) {
-  .home__hero {
-    min-height: 62.5vh;
-    flex-direction: column-reverse;
-  }
-}
 .home__hero__text {
   width: calc(50%-10px);
   margin: 10px;

@@ -22,7 +22,9 @@
     <h1 class="w-[700px] text-center text-white text-xl py-10 m-10">
       我們專業的團隊能夠提供創新的網站設計和完整的開發解決方案。我們致力於提供最優質的產品和服務，並確保您的網站在所有設備上都能正常運行。
     </h1>
-    <div class="w-screen pt-0 p-20 grid-cols-3 grid gap-10">
+    <div
+      class="w-screen pt-0 sm:p-20 p-8 sm:pt-0 grid-cols-1 grid gap-10 md:grid-cols-3"
+    >
       <UiImageCard><template #title>網頁應用</template></UiImageCard>
       <UiImageCard><template #title>移動端支援</template></UiImageCard>
       <UiImageCard><template #title>高可用性</template></UiImageCard>

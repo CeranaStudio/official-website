@@ -1,5 +1,5 @@
 <template>
-  <div class="team__grid__item flex flex-col sm:flex-row">
+  <div class="team__grid__item mx-auto flex flex-col sm:flex-row">
     <div class="team__full-width">
       <img :src="src" class="team__full-width__image" />
     </div>
@@ -53,12 +53,12 @@ defineProps({
   position: relative;
   background: #fff;
   color: #333;
-  border: 0.1px solid rgba(51, 51, 51, 0.1);
   padding: 16px;
+  border: 0.1px solid rgba(51, 51, 51, 0.1);
   overflow: hidden;
 }
 .team__full-width {
-  max-width: 250px;
+  max-width: 200px;
   max-height: 250px;
   margin-top: -32px;
   margin-left: -32px;

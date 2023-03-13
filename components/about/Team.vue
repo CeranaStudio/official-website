@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="text-center text-3xl">團隊</h1>
+    <h1 class="text-center text-4xl font-bold">團隊</h1>
     <div class="mt-10 grid grid-cols-1 gap-4 lg:grid-cols-2">
       <UiPersonCard
         class="mx-auto"
@@ -16,7 +16,8 @@
         role="服務架構"
         description="Yan Chiu 擁有四年的後端開發的經驗，現為於陽明交大研究區塊鏈。曾參與設計區塊鏈錢包管理系統與供應鏈碳排放管理系統，目前正在與東蜂工作室合作提供在線服務。"
       />
-      <UiPersonCard class="mx-auto" 
+      <UiPersonCard
+        class="mx-auto"
         src="/img/about/Brandon.jpg"
         title="Brandon Lu"
         role="軟體工程師"

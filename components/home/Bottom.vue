@@ -84,6 +84,9 @@ onMounted(() => {
   display: grid;
   grid-gap: 32px;
   grid-template-columns: 1fr;
+  padding: 32px 0;
+
+  overflow: hidden;
 }
 .home__bottom__cards .in-view:nth-child(1) {
   transition-delay: 0.4s !important;

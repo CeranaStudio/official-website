@@ -22,7 +22,7 @@ const histories = [
     title: 'Chill Wallet - 可驗證憑證管理系統',
     date: '上線於 2022 年 6 月 9',
     description:
-      'Chill Wallet遵循W3C的規範，設計一個以Ethereum為環境的可驗證憑證機制，並且架設一平台提供Issuer、Holder、Verifier相關的功能，像是協助Issuer發佈憑證、identity wallet、驗證介面等。'
+      'Chill Wallet 遵循 W3C 的規範，設計一個以 Ethereum 為環境的可驗證憑證機制，並且架設一平台提供 Issuer、Holder、Verifier 相關的功能，像是協助 Issuer 發佈憑證、identity wallet、驗證介面等。'
   },
   {
     title: 'Stylish - 服飾電商網站',

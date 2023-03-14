@@ -20,7 +20,7 @@ export default defineNuxtConfig({
         { name: 'og:description', content: '東蜂科技是一間專注於軟體開發的工作室，我們提供網站開發、網頁設計、服務架構、資料庫設計、行動應用程式開發等服務。' },
         { name: 'og:image', content: '/og-image.png' },
       ],
-      link: [{ rel: 'icon', type: 'image/png', href: '/favicon.svg' }]
+      link: [{ rel: 'icon', type: 'image/png', href: '/favicon.png' }]
     }
   }
 })

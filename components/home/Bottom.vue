@@ -6,19 +6,19 @@
     </div>
     <div class="home__bottom__cards">
       <div class="slide-in">
-        <UiContextCard src="/img/home/brainstorm.png">
+        <UiContextCard src="/img/home/brainstorm.png" href="/about">
           <template #text> 更深入的了解我們團隊的理念與成員，以及我們走過的路。 </template>
           <template #footer> 關於團隊 </template>
         </UiContextCard>
       </div>
       <div class="slide-in">
-        <UiContextCard src="/img/home/position.png">
+        <UiContextCard src="/img/home/position.png" href="/about">
           <template #text> 曾經參與過的專案，以及我們的獎項經歷。 </template>
           <template #footer> 獎項經歷 </template>
         </UiContextCard>
       </div>
       <div class="slide-in">
-        <UiContextCard src="/img/home/cloud-database.png">
+        <UiContextCard src="/img/home/cloud-database.png" href="/about">
           <template #text> 我們的服務範圍，以及我們的服務標準。 </template>
           <template #footer> 服務範圍 </template>
         </UiContextCard>

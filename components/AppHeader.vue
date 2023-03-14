@@ -6,7 +6,7 @@
     <div
       class="bruger"
       :class="{ open: isOpen }"
-      @click="toggleOpen()"
+      @click="open = open === '' ? '-open' : ''"
     >
       <span></span><span></span><span></span><span></span><span></span><span></span>
     </div>
@@ -22,12 +22,12 @@
 <script setup>
 const open = ref('')
 const isOpen = computed(() => open.value === '-open')
-const toggleOpen = () => {
-  open.value = open.value === '' ? '-open' : ''
+const closeNav = () => {
+  open.value = ''
 }
 const route = useRoute()
 watch(route, () => {
-  toggleOpen()
+  closeNav()
 })
 </script>
 <style scoped>

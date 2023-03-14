@@ -1,5 +1,5 @@
 <template>
-  <NuxtLink class="card cursor-pointer transition-shadow duration-300 hover:shadow-xl">
+  <NuxtLink class="card cursor-pointer transition-shadow duration-300 hover:shadow-xl" :href="href">
     <div class="card__svg">
       <img class="p-16" :src="src" alt="brainstorm" />
     </div>
@@ -26,6 +26,9 @@ defineProps({
     type: String,
     required: true,
   },
+  href: {
+    type: String,
+  }
 })
 </script>
 <style scoped>

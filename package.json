@@ -12,5 +12,8 @@
     "nuxt": "^3.2.3",
     "nuxt-simple-sitemap": "^2.2.0",
     "prettier-plugin-tailwindcss": "^0.2.4"
+  },
+  "dependencies": {
+    "@vercel/analytics": "^1.0.0"
   }
 }

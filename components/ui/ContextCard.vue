@@ -1,7 +1,10 @@
 <template>
-  <NuxtLink class="card cursor-pointer transition-shadow duration-300 hover:shadow-xl" :href="href">
+  <NuxtLink
+    class="card cursor-pointer transition-shadow duration-300 hover:shadow-xl"
+    :href="href"
+  >
     <div class="card__svg">
-      <img class="p-16" :src="src" alt="brainstorm" />
+      <img class="max-w-[80vw] p-8 mx-auto md:p-16" :src="src" alt="brainstorm" />
     </div>
     <div class="card__txt">
       <div class="card__txt__p mb-2 text-sm font-thin min-h-[40px]">
@@ -10,7 +13,11 @@
       <div class="card__txt__h">
         <div class="my-2 tracking-widest"><slot name="footer"></slot></div>
         <div class="arrow my-2 h-6 w-6 rotate-90 transition duration-500 ease-in-out">
-          <svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 96 120">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            data-name="Layer 1"
+            viewBox="0 0 96 120"
+          >
             <path
               d="M19 41a4 4 0 002.83-1.17L44 17.66V88a4 4 0 008 0V17.66l22.17 22.17a4 4 0 005.66-5.66l-29-29h-.05a4 4 0 00-.56-.46c-.1-.07-.21-.11-.31-.17a4 4 0 00-.38-.2 3.94 3.94 0 00-.4-.12c-.12 0-.23-.08-.35-.1A4 4 0 0048 4a4 4 0 00-.73.07c-.12 0-.23.07-.35.1a3.94 3.94 0 00-.4.12 3.94 3.94 0 00-.38.2c-.1.06-.21.1-.31.17a4 4 0 00-.56.46h-.05l-29 29A4 4 0 0019 41z"
             ></path>
@@ -28,8 +35,8 @@ defineProps({
   },
   href: {
     type: String,
-  }
-})
+  },
+});
 </script>
 <style scoped>
 .card {

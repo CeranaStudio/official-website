@@ -1,6 +1,6 @@
-# Nuxt 3 Minimal Starter
+# Cerana Official Website
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+The website of the cerana team. 
 
 ## Setup
 

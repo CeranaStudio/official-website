@@ -20,7 +20,9 @@
           </svg>
         </div>
       </div>
-      <h1 class="my-10 mx-auto w-[700px] py-10 text-center text-xl text-white">
+      <h1
+        class="my-10 mx-auto w-full max-w-[700px] py-10 px-2 text-center text-xl text-white"
+      >
         我們專業的團隊能夠提供創新的網站設計和完整的開發解決方案。我們致力於提供最優質的產品和服務，並確保您的網站在所有設備上都能正常運行。
       </h1>
       <div
@@ -42,11 +44,11 @@
 <style scoped></style>
 <script setup>
 const clickScroll = () => {
-  const scroll = document.querySelector('#scroll')
+  const scroll = document.querySelector("#scroll");
   scroll.scrollIntoView({
-    behavior: 'smooth',
-    block: 'start',
-    inline: 'nearest'
-  })
-}
+    behavior: "smooth",
+    block: "start",
+    inline: "nearest",
+  });
+};
 </script>

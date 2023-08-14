@@ -4,7 +4,7 @@
     :href="href"
   >
     <div class="card__svg">
-      <img class="max-w-[80vw] p-8 mx-auto md:p-16" :src="src" alt="brainstorm" />
+      <img class="p-8 mx-auto md:p-16" :src="src" alt="brainstorm" />
     </div>
     <div class="card__txt">
       <div class="card__txt__p mb-2 text-sm font-thin min-h-[40px]">

@@ -114,32 +114,4 @@ onMounted(() => {
   transform: none;
   opacity: 1;
 }
-/* @keyframes slide-in {
-  0% {
-    transform: translateY(100%);
-    opacity: 0;
-  }
-  100% {
-    transform: translateY(0%);
-    opacity: 1 !important;
-  }
-} */
-
-/* .slide-out {
-  animation: slide-out 3s ease-in-out;
-}
-
-@keyframes slide-out {
-  0% {
-    transform: translateY(0%);
-  }
-  50% {
-    transform: translateY(50%);
-    opacity: 0;
-  }
-  100% {
-    transform: translateY(100%);
-    opacity: 0;
-  }
-} */
 </style>

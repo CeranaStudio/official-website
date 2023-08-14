@@ -1,7 +1,10 @@
 <template>
   <header class="menu">
-    <div class="menu__logo" :class="{ open: isOpen }">
+    <!-- <div class="menu__logo" :class="{ open: isOpen }">
       <img :src="`/img/logo${open}.svg`" alt="logo" />
+    </div> -->
+    <div class=menu__logo>
+      <h1 class="text-2xl font-bold" :class="{'text-white': isOpen}">東蜂工作室</h1>
     </div>
     <div
       class="bruger"

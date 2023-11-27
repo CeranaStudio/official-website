@@ -33,7 +33,7 @@ onMounted(() => {
     entries.forEach((entry) => {
       const cards = entry.target.querySelectorAll('.slide-in')
 
-      cards.forEach((card, index) => {
+      cards.forEach((card, _) => {
         if (entry.isIntersecting) {
           card.classList.add('in-view')
           return // if we added the class, exit the function

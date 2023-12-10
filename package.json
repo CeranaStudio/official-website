@@ -9,9 +9,14 @@
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^6.4.1",
+    "@typescript-eslint/eslint-plugin": "^6.13.2",
+    "@typescript-eslint/parser": "^6.13.2",
+    "eslint": "^8.55.0",
+    "eslint-plugin-vue": "^9.19.2",
     "nuxt": "^3.2.3",
     "nuxt-simple-sitemap": "^2.2.0",
-    "prettier-plugin-tailwindcss": "^0.2.4"
+    "prettier-plugin-tailwindcss": "^0.2.4",
+    "typescript": "^5.3.3"
   },
   "dependencies": {
     "@vercel/analytics": "^1.0.0"

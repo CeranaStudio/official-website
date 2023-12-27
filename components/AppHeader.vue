@@ -3,18 +3,14 @@
         <!-- <div class="menu__logo" :class="{ open: isOpen }">
 <img :src="`/img/logo${open}.svg`" alt="logo" />
 </div> -->
-        <div class=menu__logo>
-            <h1 class="text-2xl font-bold" :class="{'text-white': isOpen}">東蜂工作室</h1>
+        <div class="menu__logo">
+            <h1 class="text-2xl font-bold" :class="{ 'text-white': isOpen }">東蜂工作室</h1>
         </div>
-        <div
-            class="bruger"
-            :class="{ open: isOpen }"
-            @click="open = open === '' ? '-open' : ''"
-        >
+        <div class="bruger" :class="{ open: isOpen }" @click="open = open === '' ? '-open' : ''">
             <span></span><span></span><span></span><span></span><span></span><span></span>
         </div>
     </header>
-    <nav class="menu__nav" v-if="isOpen">
+    <nav v-if="isOpen" class="menu__nav">
         <NuxtLink class="menu__nav__link" to="/">主頁</NuxtLink>
         <NuxtLink class="menu__nav__link" to="/about">關於我們</NuxtLink>
         <NuxtLink class="menu__nav__link" to="/contact">聯絡方式</NuxtLink>

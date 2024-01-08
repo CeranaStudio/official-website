@@ -41,8 +41,8 @@
                 class="mx-auto"
                 src="/img/about/Mark.jpg"
                 title="Mark"
-                role="深度學習工程師"
-                description="Mark 擁有物聯網、後端開發與機器學習相關經驗，目前在台灣大學從事 SLAM 的研究，也同時持續學習ML與軟軟體工程相關領域知識。"
+                role="後端工程師"
+                description="Mark 擁有物聯網、後端開發與機器學習相關經驗，目前在台灣大學從事 SLAM 的研究，也同時持續學習ML與軟體工程相關領域知識。"
             />
         </div>
     </div>

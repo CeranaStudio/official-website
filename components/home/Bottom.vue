@@ -2,10 +2,7 @@
     <div class="home__bottom">
         <div class="home__bottom__text">
             <h1>了解我們</h1>
-            <p>
-                我們是由一群重視效率與產出的人組成的團隊，
-                對於網站服務建設有著極高的熱情和專業知識。
-            </p>
+            <p>我們是由一群重視效率與產出的人組成的團隊，對於服務建設有著豐富的經驗與專業知識。</p>
         </div>
         <div class="home__bottom__cards">
             <div class="slide-in">
@@ -67,22 +64,26 @@ onMounted(() => {
     -ms-flex-align: center;
     align-items: center;
 }
+
 .home__bottom__text {
     margin-top: 56px;
     margin-bottom: 0;
     text-align: center;
 }
+
 .home__bottom__text h1 {
     font-size: 48px;
     font-weight: bold;
     margin-bottom: 1rem;
 }
+
 .home__bottom__text p {
     font-size: 24px;
     font-weight: lighter;
     max-width: 700px;
     margin: auto;
 }
+
 .home__bottom .home__bottom__cards {
     margin-bottom: 88px;
     margin-top: 64px;
@@ -93,20 +94,25 @@ onMounted(() => {
 
     overflow: hidden;
 }
+
 .home__bottom__cards .in-view:nth-child(1) {
     transition-delay: 0.4s !important;
 }
+
 .home__bottom__cards .in-view:nth-child(2) {
     transition-delay: 0.8s !important;
 }
+
 .home__bottom__cards .in-view:nth-child(3) {
     transition-delay: 1.2s !important;
 }
+
 @media screen and (min-width: 640px) {
     .home__bottom .home__bottom__cards {
         grid-template-columns: repeat(3, 1fr);
     }
 }
+
 .slide-in {
     transform: translateY(100%);
     opacity: 0;
@@ -115,6 +121,7 @@ onMounted(() => {
     transition-timing-function: ease-in-out;
     transition-delay: 0s;
 }
+
 .in-view {
     transform: none;
     opacity: 1;

@@ -7,39 +7,39 @@
         <div class="grid md:grid-cols-3 gap-10 mx-auto max-w-4xl mt-12">
             <UiPersonCard
                 class="mx-auto"
-                src="/img/about/YJack.jpg"
-                title="YJack Zheng"
+                src="/img/about/Brandon.jpg"
+                title="Brandon Lu"
                 role="專案管理"
             />
             <UiPersonCard
                 class="mx-auto"
-                src="/img/about/Yan.png"
-                title="Yan Chiu"
-                role="產品設計"
-            />
-            <UiPersonCard
-                class="mx-auto"
-                src="/img/about/Brandon.jpg"
-                title="Brandon Lu"
-                role="雲原生工程師"
-            />
-            <UiPersonCard
-                class="mx-auto"
-                src="/img/about/Ian.jpg"
-                title="Ian Chiu"
-                role="軟體工程師"
-            />
-            <UiPersonCard
-                class="mx-auto"
-                src="/img/about/CTHua.jpg"
-                title="CTHua"
-                role="全端工程師"
+                src="/img/about/YJack.jpg"
+                title="YJack Zheng"
+                role="前端工程師"
             />
             <UiPersonCard
                 class="mx-auto"
                 src="/img/about/Mark.jpg"
                 title="Mark Lai"
                 role="後端工程師"
+            />
+            <UiPersonCard
+                class="mx-auto"
+                src="/img/about/Yan.png"
+                title="Yan Chiu"
+                role="區塊鏈工程師"
+            />
+            <UiPersonCard
+                class="mx-auto"
+                src="/img/about/Ian.jpg"
+                title="Ian Chiu"
+                role="軟韌體暨物聯網工程師"
+            />
+            <UiPersonCard
+                class="mx-auto"
+                src="/img/about/CTHua.jpg"
+                title="CTHua"
+                role="合約工程師"
             />
         </div>
     </div>

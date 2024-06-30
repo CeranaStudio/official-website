@@ -1,10 +1,8 @@
 <template>
     <header class="menu">
-        <!-- <div class="menu__logo" :class="{ open: isOpen }">
-<img :src="`/img/logo${open}.svg`" alt="logo" />
-</div> -->
-        <div class="menu__logo">
-            <h1 class="text-2xl font-bold" :class="{ 'text-white': isOpen }">東蜂工作室</h1>
+        <div class="flex">
+            <img :src="`/img/logo.png`" class="h-8 rounded" alt="logo" />
+            <h1 class="text-2xl font-bold px-2" :class="{ 'text-white': isOpen }">東蜂工作室</h1>
         </div>
         <div class="bruger" :class="{ open: isOpen }" @click="open = open === '' ? '-open' : ''">
             <span></span><span></span><span></span><span></span><span></span><span></span>
@@ -42,27 +40,7 @@ router.beforeEach(() => {
     max-width: 1200px;
     margin: auto;
 }
-.menu__logo {
-    z-index: 100;
-}
-.menu__logo img {
-    height: 3vh;
-    max-width: 300px;
-}
 
-@media screen and (min-width: 1024px) {
-    .menu__logo img {
-        max-width: 200px;
-    }
-}
-
-.menu__logo:hover {
-    cursor: pointer;
-}
-
-.menu__logo.open {
-    color: #fff;
-}
 .bruger {
     z-index: 100;
     width: 60px;
@@ -191,6 +169,7 @@ router.beforeEach(() => {
     left: calc(50% - 5px);
     top: 29px;
 }
+
 .menu__nav {
     z-index: 99;
     background: #333;
@@ -214,6 +193,7 @@ router.beforeEach(() => {
     -ms-flex-align: center;
     align-items: center;
 }
+
 .menu__nav__link {
     color: #fff;
     font-size: 36px;
@@ -222,11 +202,13 @@ router.beforeEach(() => {
     opacity: 0.8;
     min-height: 40px;
 }
+
 a {
     text-decoration: none;
     transition: 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
     transition-property: color, background-color, opacity;
 }
+
 a:hover {
     color: #d2a357;
 }

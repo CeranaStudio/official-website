@@ -21,22 +21,28 @@
                 </div>
             </div>
             <h1
-                class="my-10 mx-auto w-full max-w-[700px] py-10 px-2 text-center text-xl text-white"
+                class="my-10 mx-auto w-full max-w-[700px] py-10 px-2 text-center text-2xl text-white"
+            >
+                特色
+            </h1>
+
+            <!-- <h1
+                class="my-10 mx-auto w-full max-w-[700px] py-10 px-2 text-center text-2xl text-white"
             >
                 我們專業的團隊能夠提供創新的網站設計和完整的開發解決方案。我們致力於提供最優質的產品和服務，並確保您的網站在所有設備上都能正常運行。
-            </h1>
+            </h1> -->
             <div
                 class="grid w-screen max-w-[1200px] grid-cols-1 gap-10 p-8 pt-0 sm:p-20 sm:pt-0 md:grid-cols-3"
             >
                 <UiImageCard class="bg-green-500" src="/img/home/app-development.png"
-                    ><template #title>網頁應用</template></UiImageCard
-                >
+                    ><template #title>界面開發</template>
+                </UiImageCard>
                 <UiImageCard class="bg-sky-500" src="/img/home/smartphone.png"
-                    ><template #title>移動端支援</template></UiImageCard
-                >
+                    ><template #title>移動端支援</template>
+                </UiImageCard>
                 <UiImageCard class="bg-red-500" src="/img/home/high-avalibility.png"
-                    ><template #title>高可用性</template></UiImageCard
-                >
+                    ><template #title>輕鬆上雲</template>
+                </UiImageCard>
             </div>
         </div>
     </div>

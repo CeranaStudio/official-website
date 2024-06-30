@@ -33,6 +33,7 @@ onMounted(() => {
 <style scoped>
 .home__hero__text {
     width: 40vw;
+    max-width: 600px;
     padding: 10px;
 }
 

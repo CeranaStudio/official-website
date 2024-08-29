@@ -9,38 +9,28 @@
                 class="mx-auto"
                 src="/img/about/Brandon.jpg"
                 title="Brandon Lu"
-                role="專案管理"
+                role="產品經理"
             />
             <UiPersonCard
                 class="mx-auto"
                 src="/img/about/YJack.jpg"
                 title="YJack Zheng"
-                role="前端工程師"
+                role="專案長"
             />
             <UiPersonCard
                 class="mx-auto"
                 src="/img/about/Mark.jpg"
                 title="Mark Lai"
-                role="後端工程師"
+                role="技術負責人"
             />
             <UiPersonCard
                 class="mx-auto"
                 src="/img/about/Yan.png"
                 title="Yan Chiu"
-                role="區塊鏈工程師"
+                role="產品設計"
             />
-            <UiPersonCard
-                class="mx-auto"
-                src="/img/about/Ian.jpg"
-                title="Ian Chiu"
-                role="軟韌體暨物聯網工程師"
-            />
-            <UiPersonCard
-                class="mx-auto"
-                src="/img/about/CTHua.jpg"
-                title="CTHua"
-                role="合約工程師"
-            />
+            <UiPersonCard class="mx-auto" src="/img/about/Ian.jpg" title="Ian Chiu" role="工程師" />
+            <UiPersonCard class="mx-auto" src="/img/about/CTHua.jpg" title="CTHua" role="工程師" />
         </div>
     </div>
 </template>

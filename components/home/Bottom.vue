@@ -2,7 +2,7 @@
     <div class="home__bottom">
         <div class="home__bottom__text">
             <h1>了解我們</h1>
-            <p>我們是由一群重視效率與產出的人組成的團隊，對於服務建設有著豐富的經驗與專業知識。</p>
+            <p>Cerana 工作室由具備豐富經驗的工程師以及 PM 組成，交給我們來打造您的最佳服務體驗。</p>
         </div>
         <div class="home__bottom__cards">
             <div class="slide-in">

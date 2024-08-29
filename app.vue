@@ -5,8 +5,8 @@
 </template>
 <style>
 :root {
-    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono',
-        'Courier New', monospace;
+    /* font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', */
+    /*     'Courier New', monospace; */
 }
 
 body {
